@@ -1,0 +1,34 @@
+body{
+    background-image:url("img/back6.gif");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+@media (min-width:0px) and (max-width:980px) {
+    .picro{
+        width:250px;
+    }
+    .col-4 p{
+        font-size:14px;
+    }
+    .icon i{
+        font-size: 15px;
+    }
+    body{
+        background-image:url("img/back6.gif");
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+}
+@media (min-width:980px) and (max-width:1800px){
+    .picro{
+        width:500px;
+    }
+    .col-4 p{
+        font-size: 20px;
+    }
+    .icon i{
+        font-size: 25px;
+    }
+}
